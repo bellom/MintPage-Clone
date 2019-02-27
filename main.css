@@ -1,0 +1,48 @@
+
+
+
+
+body {
+    background:#ECEEF1;
+}
+#navig{
+	display:grid;
+	grid-template-columns: auto 120px;
+	margin: 10px 25px 10px 10px;
+	background:#ECEEF1;
+}
+#navig-text {
+	grid-column: 1;
+	justify-self: end;
+
+	font-size: 85%
+}
+#navig-text p{
+	margin:5px 0;
+}
+#signin {
+	grid-column: 2;
+	justify-self: end;
+	padding: 8px 8px 8px 32px;
+	background: #0077C5 url("images/lockicon.png");
+	background-position: 16px 8px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	
+	width:100px;
+	height:40px;
+
+	border:solid black 1px;
+	border-radius: 4px;
+
+	color: white;
+	
+}
+#main {
+	width: 380px;
+	margin:auto;
+	justify-items: center;
+}
+#logo {
+	margin: 30px 2.5px 0 2.5px;
+}
