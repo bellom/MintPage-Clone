@@ -10,8 +10,7 @@ body {
 #navig-text {
 	grid-column: 1;
 	justify-self: end;
-
-	font-size: 85%
+	font-size: 85%;
 }
 #navig-text p{
 	margin:5px 0;
