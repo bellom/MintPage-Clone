@@ -74,7 +74,7 @@ body {
 .form-content .element form {
   display: flex;
   flex-direction: column;
-  margin-top:
+  margin-top:0;
 }
 
 .form-content .element form div {
